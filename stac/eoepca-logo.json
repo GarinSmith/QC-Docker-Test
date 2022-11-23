@@ -1,0 +1,44 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Feature",
+  "id": "eoepca-logo",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-180, -90],
+        [-180, 90],
+        [180, 90],
+        [180, -90],
+        [-180, -90]
+      ]
+    ]
+  },
+  "properties": {
+    "created": "2022-11-22T08:12:30.713Z",
+    "datetime": "2022-11-22T08:12:30.713Z",
+    "updated": "2022-11-22T08:12:30.713Z"
+  },
+  "bbox": [-180, -90, 180, 90],
+  "assets": {
+    "logo": {
+      "type": "image/png",
+      "roles": ["data"],
+      "href": "eoepca-logo.png",
+      "file:size": 16564
+    }
+  },
+  "links": [{
+    "type": "application/json",
+    "rel": "parent",
+    "href": "catalog.json"
+  }, {
+    "type": "application/geo+json",
+    "rel": "self",
+    "href": "https://raw.githubusercontent.com/EOEPCA/convert/main/stac/eoepca-logo.png"
+  }, {
+    "type": "application/json",
+    "rel": "root",
+    "href": "catalog.json"
+  }]
+}

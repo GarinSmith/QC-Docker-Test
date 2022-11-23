@@ -1,0 +1,15 @@
+{
+  "id": "catalog",
+  "stac_version": "1.0.0",
+  "links": [{
+    "type": "application/geo+json",
+    "rel": "item",
+    "href": "eoepca-logo.json"
+  }, {
+    "type": "application/json",
+    "rel": "self",
+    "href": "https://raw.githubusercontent.com/EOEPCA/convert/main/stac/catalog.json"
+  }],
+  "type": "Catalog",
+  "description": "Root catalog"
+}
