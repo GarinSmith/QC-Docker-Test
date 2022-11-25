@@ -27,7 +27,7 @@ $graph:
       convert:
         run: "#convert"
         in:
-          fn: fn
+          newfn: fn
           url: url
           size: size
         out:
