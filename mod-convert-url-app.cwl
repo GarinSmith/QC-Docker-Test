@@ -12,7 +12,7 @@ $graph:
     id: convert-url
     label: convert url app
     inputs:
-      newfn:
+      fn:
         type: string
       url:
         type: string
@@ -27,7 +27,7 @@ $graph:
       convert:
         run: "#convert"
         in:
-          newfn: fn
+          fn: fn
           url: url
           size: size
         out:
