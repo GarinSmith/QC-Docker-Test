@@ -12,7 +12,7 @@ $graph:
     id: convert-url
     label: convert url app
     inputs:
-      fn:
+      newfn:
         type: string
       url:
         type: string
