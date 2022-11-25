@@ -8,8 +8,8 @@ s:softwareVersion: 0.1.1
 $graph:
   # Workflow entrypoint
   - class: Workflow
-    doc: Mod Convert URL
-    id: mod-convert-url
+    doc: Convert URL
+    id: convert-url
     label: convert url app
     inputs:
       fn:
